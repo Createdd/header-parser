@@ -6,7 +6,7 @@ var port=process.env.PORT || 3000;//set the port to arguments or default 3000
 
 app.get("/", function(req,res){
   res.send("Add /whoami");
-})
+});
 
 /*
 app.route("/whoami").get(function(req,res){
