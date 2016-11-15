@@ -3,6 +3,12 @@ var express=require("express");//add the express module to serve static files
 var app=express();//calling the express function
 var port=process.env.PORT || 3000;//set the port to arguments or default 3000
 
+
+app.get("/", function(req,res){
+  res.send("Add /whoami");
+})
+
+
 app.route("/whoami").get(function(req,res){
       var data = {
         "IP-Address":req.headers["host"],//displaying the ip address
