@@ -1,0 +1,22 @@
+{
+  "name": "headerparsermicroservice",
+  "version": "1.0.0",
+  "description": "fcc challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "free",
+    "code",
+    "camp",
+    "rest",
+    "api"
+  ],
+  "author": "Daniel Deutsch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
