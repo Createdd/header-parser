@@ -2,7 +2,7 @@
 var express=require("express");
 var app=express();
 var port=process.env.PORT || 3000;
-var routes=require("./app/routes/index.js");
+var routes=require("./routes/index.js");
 
 app.use(function(req,res,next){
   res.header("Access-Control-Allow-Origin", "*");
