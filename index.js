@@ -1,4 +1,4 @@
-"use strict";
+
 var express=require("express");//add the express module to serve static files
 var app=express();//calling the express function
 var port=process.env.PORT || 3000;//set the port to arguments or default 3000
